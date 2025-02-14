@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background: linear-gradient(180deg, #003399 50%, rgba(255,238,53,0.9)100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 232.81px;
+    height: 130.95px;
+    left: 0;
+    top: 0;
+    border-radius: 37px;
+}
+
+/* Main Content */
+.content {
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Feedback Form */
+.feedback-form {
+    width: 95%;
+    height: 90vh;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+/* Title */
+.title {
+    background: #003399;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Description */
+.description {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Form Group */
+.form-group {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.required {
+    color: red;
+}
+
+/* Textarea */
+textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    height: 30vh;
+
+}
+
+/* Submit Button */
+.submit-btn {
+    background: #003399;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Hover Effect */
+.submit-btn:hover {
+    background: #002266;
+    transform: scale(1.005);
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: #003399;
+    margin: 20px 0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: red;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev, .next {
+    background: #003399;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease; /
+}
+
+/* Hover Effects */
+.prev:hover, .next:hover {
+    background: #002266; 
+    transform: scale(1.05); 
+}
+
+/* Disabled Next Button */
+.next:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+.page-number {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+
+}

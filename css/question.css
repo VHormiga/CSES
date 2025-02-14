@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background: linear-gradient(180deg, #003399 50%, rgba(255,238,53,0.9)100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 232.81px;
+    height: 130.95px;
+    left: 0;
+    top: 0;
+    border-radius: 37px;
+}
+
+
+.content {
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+   
+}
+.questionnaire {
+    width: 95%;
+    height: 90vh;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.title {
+    background: #003399;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.info-icon {
+    display: block; 
+    margin: 0 auto 10px auto; 
+    width: 35px; 
+    height: 35px;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.instruction {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* Question Box */
+.question-box {
+    background:rgb(228, 224, 224);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.question {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: justify;
+}
+
+/* Radio Buttons */
+.radio {
+    display: block;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.radio input {
+    margin-top: 18px;
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: #003399;
+    margin: 20px 0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: red;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev, .next {
+    background: #003399;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.page-number {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.prev, .next {
+    background: #003399;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+
+.prev:hover, .next:hover {
+    background: #002266; 
+    transform: scale(1.05); 
+}

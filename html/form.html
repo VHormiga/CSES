@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Satisfaction Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="https://1000logos.net/wp-content/uploads/2019/03/DSWD-Logo.png" alt="DSWD Logo" class="logo">
+            <h2>Client Satisfaction Measurement Form</h2>
+        </div>
+
+        <div class="form-container">
+            <div class="form-box">
+                
+                <div class="section-title">Client Information</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label  class="required">LAST NAME:</label>
+                        <input type="text" name="lastname" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">FIRST NAME:</label>
+                        <input type="text" name="firstname" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">MIDDLE NAME:</label>
+                        <input type="text" name="middlename" placeholder="Middle Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">EXT. NAME:</label>
+                        <input type="text" name="extension" placeholder="Ext. Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">AGE:</label>
+                        <input type="text" name="age" placeholder="Age" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">Sex:</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="sex" value="Male"> Male</label>
+                            <label><input type="radio" name="sex" value="Female"> Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-grid full-width">
+                    <div class="form-group">
+                        <label class="required">Address:</label>
+                        <input type="text" name="address" placeholder="Address" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">Contact Number/Email Address:</label>
+                        <input type="text" >
+                    </div>
+                </div>
+
+                <div class="section-title">Service Details</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="required">Date of Transaction:</label>
+                        <input type="date">
+                    </div>
+                    <div class="form-group">
+                        <label class="required">Program:</label>
+                        <select><option>Please Choose</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">Name of Service Availed:</label>
+                        <select><option>Please Choose</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">Name of Attending Action Officer:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="required" >Client Type:</label>
+                        <select><option>Please Choose</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="required">Sector:</label>
+                        <select><option>Please Choose</option></select>
+                    </div>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress" style="width: 15%;"></div>
+                </div>
+
+                <div class="pagination">
+                    <button class="prev">&lt; Previous</button>
+                    <span class="page-number">1/14</span>
+                    <button class="next">Next &gt;</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
