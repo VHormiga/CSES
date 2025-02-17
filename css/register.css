@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, #003399 50%, rgba(255,238,53,0.9) 100%);
+    background: linear-gradient(180deg, #003399 50%, rgba(247, 2, 2, 0.9) 100%);
     min-height: 100vh;
 }
 
@@ -104,10 +104,11 @@ form {
     margin: 15px 0px;
     font-size: small;
     margin-top: 2px;
+    color: white;
 }
 
 .terms label a {
-    color: #0073e6;
+    color: #759dfa;
     text-decoration: none;
     font-weight: bold;
 }
@@ -128,6 +129,7 @@ form {
     font-size: 14px;
     text-align: center;
     font-size: small;
+    color: white;
 }
 
 .login-link a {
