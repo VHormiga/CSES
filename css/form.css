@@ -10,7 +10,7 @@ body {
 
 .container {
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: white;
     border-radius: 10px;
@@ -18,7 +18,7 @@ body {
     overflow: hidden;
 }
 .sidebar {
-    width: 30%;
+    width: 30vw;
     background: linear-gradient(180deg, #003399 50%, rgba(255,238,53,0.9)100%);
     color: white;
     text-align: center;
@@ -30,8 +30,8 @@ body {
 }
 
 .logo {
-    width: 232.81px;
-    height: 130.95px;
+    width: 15vw;
+    height: 15vh;
     border-radius: 37px;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .form-box {
-    width: 95%;
+    width: 70vw;
     height: 90vh;
     background: white;
     padding: 20px;
